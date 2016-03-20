@@ -17,6 +17,7 @@ public class BeerSong {
         } else {
             System.out.println("No more bottles of beer on the wall.");   
         }
+        System.out.println("That's all, folks!");
         }
     }
 }
