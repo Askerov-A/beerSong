@@ -17,7 +17,12 @@ public class BeerSong {
         } else {
             System.out.println("No more bottles of beer on the wall.");   
         }
-        System.out.println("That's all, folks!");
+        }   
+        int zet = 0;
+        String a = "That's all";
+        while (zet <= 9) {
+            System.out.println(a.charAt(zet));
+            zet = zet + 1;
         }
     }
 }
